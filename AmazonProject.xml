@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCasePackage.TestCase8_ProductSort_Relevance_Price_Rating"/>
+      <class name="testCasePackage.TestCase14_5StarRating_LastOrder"/>
+      <class name="testCasePackage.TestCase15_WithoutLogin_AddToCart"/>
+      <class name="testCasePackage.TestCase7_ProductDetailsVerification_Price_Review_Description"/>
+      <class name="testCasePackage.TestCase9_ItemsCanAdded_ToShoppingCart"/>
+      <class name="testCasePackage.TestCase6_SearchWithFilter"/>
+      <class name="testCasePackage.TestCase4_EditProfileInformation"/>
+      <class name="testCasePackage.TestCase5_SearchShoes"/>
+      <class name="testCasePackage.TestCase3_AmazonInValidLogin"/>
+      <class name="testCasePackage.TestCase12_SelectEachPaymentMethod"/>
+      <class name="testCasePackage.TestCase13_ApplyCouponCode"/>
+      <class name="testCasePackage.TestCase11_Checkout_PaymentMethod_orderReview_Address"/>
+      <class name="testCasePackage.TestCase1_AmazonRegistartion"/>
+      <class name="testCasePackage.TestCase2_AmazonValidLogin"/>
+      <class name="testCasePackage.TestCase10_UpadateQuantity_RemoveFromCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
